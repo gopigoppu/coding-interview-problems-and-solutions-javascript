@@ -1,4 +1,5 @@
-# leetcode-problems-solutions
+# Programming problems and solutions
+
 Series of solutions in javascript for problems in leetcode 
 
-### 1. [Two-sum](two-sum)
+### 1. [Two-sum (leetcode) ](two-sum)
