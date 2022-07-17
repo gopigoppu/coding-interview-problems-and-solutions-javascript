@@ -15,6 +15,7 @@ return [0, 1].
 
 
 ## Solution 1 (Brute Force approach) : 
+<br>
 
 ```javascript
 
@@ -33,3 +34,40 @@ let twoSum = function(nums, target) {
 
 
 ```
+
+Complexity Analysis
+
+    Time complexity:  O(n^2)
+    Space complexity: O(1) 
+    Runtime: 100 ms
+    Memory Usage: N/A
+
+
+## Solution 2 (One-pass Hash Table)
+<br>
+
+```javascript
+
+let twoSum = function(nums, target) {
+    const hashMap = {};
+    for(let i=0;i<nums.length;i++){
+        const mapVal = hashMap[nums[i]];
+        if(mapVal >= 0){
+            return [mapVal, i];
+        }else{
+            const numToFind = target - nums[i];
+            hashMap[numToFind] = i;
+        }
+    }
+    return null;
+};
+
+```
+
+Complexity Analysis
+
+    Time complexity:  O(n)
+    Space complexity: O(n) 
+    Runtime: 83 ms
+    Memory Usage: 43.1 MB
+
