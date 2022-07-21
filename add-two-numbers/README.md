@@ -24,7 +24,7 @@ var addTwoNumbers = function(l1, l2) {
 };
 ```
 
-## Solution 2 (Linked list method)
+## Solution 2 (Linked list method) ==>  Optimized Solution
 
 ```javascript
 var addTwoNumbers = function(l1, l2) {

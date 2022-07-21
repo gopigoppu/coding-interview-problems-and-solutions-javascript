@@ -49,7 +49,7 @@ var maxArea = function (height) {
 
 ```
 
-## Solution 2 (Two Pointer Approach)
+## Solution 2 (Two Pointer Approach) ==>  Optimized Solution
 
 
 ```javascript
