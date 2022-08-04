@@ -91,7 +91,7 @@ const swap = function(nums, i, j){
     Space complexity: O(n)
 
 
-## Solution 2 ( Quickselect ) ==>  Optimized Solution
+## Solution 3 ( Quickselect ) ==>  Optimized Solution
 
 
 ```javascript
