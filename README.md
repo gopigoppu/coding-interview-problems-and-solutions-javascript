@@ -21,6 +21,7 @@ Series of solutions in javascript for problems in leetcode
 14. [Implement Queue using Stacks](./leetcode/queue_using_stacks/)
 15. [Running Sum of 1d Array](./leetcode/running_sum_of_1d_array/)
 16. [Valid Parentheses](./leetcode/valid_parentheses/)
+17. [Kth Largest Element in an Array](./leetcode/Kth_Largest_Element_in_an_Array/)
 
 
 
