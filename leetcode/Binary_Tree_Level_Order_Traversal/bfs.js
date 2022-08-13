@@ -1,4 +1,4 @@
-var levelOrder = function (root) {
+let levelOrder = (root) => {
     if (!root) {
         return [];
     }
