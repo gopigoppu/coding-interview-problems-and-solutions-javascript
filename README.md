@@ -25,6 +25,7 @@ Series of solutions in javascript for problems in leetcode
 18. [Find First and Last Position of Element in Sorted Array](./leetcode/Find_First_and_Last_Position_of_Element_in_Sorted_Array/)
 19. [Palindrome Number](./leetcode/Palindrome_Number/)
 20. [Binary Tree Level Order Traversal](./leetcode/Binary_Tree_Level_Order_Traversal/)
+21. [Binary Tree Right Side View](./leetcode/Binary_Tree_Right_Side_View/)
 
 
 

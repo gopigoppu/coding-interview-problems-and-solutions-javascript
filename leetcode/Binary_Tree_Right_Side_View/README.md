@@ -64,21 +64,47 @@ var rightSideView = function (root) {
 ### Complexity Analysis
 
     Time complexity: O(n)
-    Space complexity: O(n)
+    Space complexity: O(W) -> W = Max Width of Binary tree
 
 
 ## Solution 2 ( DFS ) ==> Optimized
 
 
 ```javascript
+// using DFS -> PreOrder NRL traversal
 
+var rightSideView = function(root) {
+    const result = [];
+    
+    dfs(root, 0, result);
+    return result;
+    
+};
+
+const dfs = (node, currentLevel, result) => {
+    if(!node){
+        return;
+    }
+    
+    if(currentLevel >= result.length){
+        result.push(node.val);
+    }
+    
+    if(node.right){
+        dfs(node.right, currentLevel+1, result);
+    }
+    
+    if(node.left){
+        dfs(node.left, currentLevel+1, result);
+    }
+}
 
 ```
 
 ### Complexity Analysis
 
     Time complexity: O(n)
-    Space complexity: O(n)
+    Space complexity: O(H) -> H = Max Height of Binary Tree
 
 
 
