@@ -26,6 +26,7 @@ Series of solutions in javascript for problems in leetcode
 19. [Palindrome Number](./leetcode/Palindrome_Number/)
 20. [Binary Tree Level Order Traversal](./leetcode/Binary_Tree_Level_Order_Traversal/)
 21. [Binary Tree Right Side View](./leetcode/Binary_Tree_Right_Side_View/)
+22. [Count Complete Tree Nodes](./leetcode/Count_Complete_Tree_Nodes/)
 
 
 
